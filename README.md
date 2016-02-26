@@ -38,4 +38,5 @@ Then use it:
  - [ ] Compound bounding boxes
  - [ ] Joints
  - [ ] Move to WebWorker
+ - [ ] Publish NPM package
  
