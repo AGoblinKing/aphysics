@@ -22,8 +22,10 @@ Then use it:
 ```
 
 ## API
+
 ### World Component
  - *gravity: x y z* - A vector3 representing the direction and force of gravity
+
 ### Physics Component
  - *bb: width height depth* - Creates a box bounding box with the supplied params.
  - *move: bool* - Whether an item is moveable by the physics engine
