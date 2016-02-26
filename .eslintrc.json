@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "strict": 0,
+    "comma-dangle": 0,
+    "prefer-template": 0
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  }
+}

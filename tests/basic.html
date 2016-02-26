@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf8">
+  <title>APhysics</title>
+  <style>
+    document, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<script type="text/javascript" src="../lib/aframe.js"></script>
+<script type="text/javascript" src="../lib/oimo.js"></script>
+<script type="text/javascript" src="../aphysics.js"></script>
+
+<body>
+  <a-scene world>
+    <a-box physics position="0 20 0" color="blue"></a-box>
+    <a-box physics position="10 10 0" color="blue"></a-box>
+    <a-box physics position="2.5 105 0" color="blue"></a-box>
+    <a-box physics position="-5 105 1" color="blue"></a-box>
+    <a-box physics position="-2.5 105 -5" color="blue"></a-box>
+    <a-box physics position="5 10 0" color="blue"></a-box>
+    <a-box position="0 0 0" physics="move:false" color="red"></a-box>
+    <a-plane rotation="-90 0 0" width="100" height="100" physics="move:false;bb:100 100 1" color="orange"></a-plane>
+  </a-scene>
+</body>
+</html>
